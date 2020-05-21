@@ -26,9 +26,8 @@
                     <label for="department">Department</label>
                     <select id="department" name="department" class="form-control">
                         <option selected>Choose Department</option>
-                        <option value="CS">CS</option>
-                        <option value="LAW">LAW</option>
-                        <option value="BBA">BBA</option>
+                        <option value="Primary">Primary</option>
+                        <option value="Secondary">Secondary</option>
                     </select>
                     </div>
                 </div>

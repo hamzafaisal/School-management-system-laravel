@@ -13,6 +13,7 @@ class TeacherController extends Controller
     {
         $this->middleware('auth');
     }
+
     public function index()
     {
         $dept = request('dept');
@@ -45,7 +46,7 @@ class TeacherController extends Controller
         $teacher->universityId = $userId; // insert as universityId of teacher
         $teacher->save();
 
-        return redirect('/teachers')->with('success', 'Added Successfully');
+        return redirect('/teachers?dept=Primary')->with('success', 'Added Successfully');
     }
 
     public function show($id)

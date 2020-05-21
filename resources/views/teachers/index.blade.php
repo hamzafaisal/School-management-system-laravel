@@ -7,13 +7,10 @@
 
 <ul class="nav nav-pills">
   <li class="nav-item">
-  <a class="nav-link @if($dept == 'LAW') active @endif" href="/teachers?dept=LAW">LAW</a>
+  <a class="nav-link @if($dept == 'Primary') active @endif" href="/teachers?dept=Primary">Primary</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link  @if($dept == 'BBA') active @endif" href="/teachers?dept=BBA">BBA</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link   @if($dept == 'CS') active @endif" href="/teachers?dept=CS">CS</a>
+  <a class="nav-link  @if($dept == 'Secondary') active @endif" href="/teachers?dept=Secondary">Secondary</a>
   </li>
 </ul>
 

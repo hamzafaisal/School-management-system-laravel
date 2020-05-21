@@ -39,7 +39,7 @@
             <div class="card border-dark mb-3 text-center" style="max-width: 18rem;">
                 <h5 class="card-header py-2 font-weight-bolder">View Techers</h5>
                 <div class="card-body text-dark">
-                <a href="/teachers?dept=LAW" class="btn btn-secondary btn-sm">View Teachers</a>
+                <a href="/teachers?dept=Primary" class="btn btn-secondary btn-sm">View Teachers</a>
                 </div>
             </div>
         </div>
