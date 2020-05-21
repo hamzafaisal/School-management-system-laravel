@@ -68,7 +68,7 @@ class StudentController extends Controller
 
         $student->save();
 
-        return redirect('/students')->back();
+        return redirect('/students' . "/" .$student->rollNo);
 
     }
 

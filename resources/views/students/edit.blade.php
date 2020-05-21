@@ -11,11 +11,13 @@
              <div class="form-row">
                     <div class="form-group col-md-6">
                     <label for="phone">Phone</label>
-                    <input type="number" class="form-control" name="phone" placeholder="Phone" value={{$student->phone}}>
+                    <input type="number" class="form-control" name="phone" placeholder="Phone" 
+                    >
                     </div>
                     <div class="form-group col-md-6">
                     <label for="address">Address</label>
-                    <input type="text" class="form-control" name="address" placeholder="Address" value={{$student->address}}>
+                    <input type="text" class="form-control" name="address" placeholder="Address" 
+                    >
                     </div>
                     <input type="hidden" name="rollNo" value="{{$student->rollNo}}">
                 </div>
