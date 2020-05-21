@@ -68,7 +68,7 @@ class StudentController extends Controller
 
         $student->save();
 
-        return redirect('/students')->with('success', 'Added Successfully');
+        return redirect('/students')->back();
 
     }
 
