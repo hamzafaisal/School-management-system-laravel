@@ -31,11 +31,11 @@
             <div class="container">
                 @if (Auth::check() && Auth::user()->role == 'admin')
                 <a class="navbar-brand" href="{{ url('/home') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    School Management
                 </a>
                 @else
                 <a class="navbar-brand" href="">
-                    {{ config('app.name', 'Laravel') }}
+                    School Management
                 </a>               
                 @endif
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

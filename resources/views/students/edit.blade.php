@@ -7,17 +7,14 @@
             <h1 class="mb-3 text-capitalize">Edit Profile {{$student->username}}</h1>
             <form action="/students/update" method="POST">
              @csrf
-             <!-- @method('PATCH') -->
              <div class="form-row">
                     <div class="form-group col-md-6">
                     <label for="phone">Phone</label>
-                    <input type="number" class="form-control" name="phone" placeholder="Phone" 
-                    >
+                    <input type="number" class="form-control" name="phone" placeholder="Phone" value="{{$student->phone}}" autocomplete=false>
                     </div>
                     <div class="form-group col-md-6">
                     <label for="address">Address</label>
-                    <input type="text" class="form-control" name="address" placeholder="Address" 
-                    >
+                    <input type="text" class="form-control" name="address" placeholder="Address" value="{{$student->address}}">
                     </div>
                     <input type="hidden" name="rollNo" value="{{$student->rollNo}}">
                 </div>

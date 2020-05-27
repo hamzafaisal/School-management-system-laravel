@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="container">
+    <h1 class="text-center my-4 text-dark">Admin Dashboard</h1>
     <div class="row justify-content-center">
         <div class="col-lg-4 my-3">
             <div class="card border-dark mb-3 text-center" style="max-width: 18rem;">
@@ -37,7 +38,7 @@
         </div>
         <div class="col-lg-4 my-3">
             <div class="card border-dark mb-3 text-center" style="max-width: 18rem;">
-                <h5 class="card-header py-2 font-weight-bolder">View Techers</h5>
+                <h5 class="card-header py-2 font-weight-bolder">View Teachers</h5>
                 <div class="card-body text-dark">
                 <a href="/teachers?dept=Primary" class="btn btn-secondary btn-sm">View Teachers</a>
                 </div>

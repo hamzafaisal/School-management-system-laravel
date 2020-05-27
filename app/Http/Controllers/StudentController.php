@@ -57,6 +57,7 @@ class StudentController extends Controller
     public function edit($id)
     {
         $student = Student::where('rollNo', $id)->first();
+        // dd($student);
         return view('students.edit', compact('student'));
     }
 
